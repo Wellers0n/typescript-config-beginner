@@ -1,0 +1,26 @@
+{
+  "name": "begginer",
+  "version": "1",
+  "description": "ts from js",
+  "main": "index.js",
+  "author": "Wellerson",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "koa": "^2.7.0",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "typescript": "^3.3.3333"
+  }
+}
