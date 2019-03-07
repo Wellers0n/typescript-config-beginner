@@ -1,4 +1,10 @@
 {
-    "presets": ["env", "stage-0"],
-    "plugins": ["transform-es2015-classes", "transform-runtime"]
-  }
+  "presets": [
+      "@babel/env",
+      "@babel/typescript"
+  ],
+  "plugins": [
+      "@babel/proposal-class-properties",
+      "@babel/proposal-object-rest-spread"
+  ]
+}

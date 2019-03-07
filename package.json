@@ -6,21 +6,19 @@
   "author": "Wellerson",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node ./src/index.ts"
+    "start": "nodemon --exec ts-node ./src/index.ts"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-typescript": "^7.1.0",
     "@types/koa": "^2.0.48",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-plugin-transform-es2015-classes": "^6.24.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.24.1",
     "koa": "^2.7.0",
-    "nodemon": "^1.18.10"
-  },
-  "dependencies": {
-    "babel-runtime": "^6.26.0",
+    "nodemon": "^1.18.10",
     "typescript": "^3.3.3333"
-  }
+  },
+  "dependencies": {}
 }
